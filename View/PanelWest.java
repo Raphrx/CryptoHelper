@@ -11,11 +11,11 @@ public class PanelWest extends JPanel{
         JPanel panelWest = new JPanel(new GridLayout(2,1));
 
         // Row 1 column 1 : write a transaction button
-        MenuButton writeTransaction = new MenuButton("write a transaction");
+        WriteTransactionButton writeTransaction = new WriteTransactionButton("write a transaction");
         panelWest.add(writeTransaction);
 
         // Row 1 column 1 : write a transaction button
-        MenuButton listTransaction = new MenuButton("list of transactions");
+        ListTransactionButton listTransaction = new ListTransactionButton("list of transactions");
         panelWest.add(listTransaction);
 
         this.add(panelWest);
